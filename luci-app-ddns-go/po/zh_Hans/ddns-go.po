@@ -49,13 +49,13 @@ msgstr "DDNS-GO WEB服务禁用"
 msgid "Open Web Interface"
 msgstr "打开Web界面"
 
-msgid "Set the DDNS-TO access port"
+msgid "Listen port"
 msgstr "设置访问端口"
 
 msgid "Collecting data..."
 msgstr "收集数据..."
 
-msgid "update interval"
+msgid "Update interval"
 msgstr "更新间隔"
 
 msgid "Skip verifying certificates"
