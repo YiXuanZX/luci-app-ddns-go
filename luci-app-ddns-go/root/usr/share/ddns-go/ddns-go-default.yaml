@@ -1,20 +1,20 @@
 ipv4:
-  enable: true
+  enable: false
   gettype: url
-  url: https://4.ipw.cn,https://myip4.ipip.net,https://ddns.oray.com/checkip,https://ip.3322.net
+  url: https://myip4.ipip.net, https://ddns.oray.com/checkip, https://ip.3322.net
   netinterface: br-lan
   domains:
   - ""
 ipv6:
-  enable: false
-  gettype: url
-  url: https://6.ipw.cn, https://speed.neu6.edu.cn/getIP.php, https://v6.ident.me
-  netinterface: ""
+  enable: true
+  gettype: netInterface
+  url: https://myip6.ipip.net, https://speed.neu6.edu.cn/getIP.php, https://v6.ident.me
+  netinterface: br-lan
   ipv6reg: ""
   domains:
   - ""
 dns:
-  name: alidns
+  name: cloudflare
   id: ""
   secret: ""
 user:
